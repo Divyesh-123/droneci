@@ -1,0 +1,6 @@
+pipeline:
+  slack-notification:
+    image: plugins/slack
+    webhook: https://hooks.slack.com/services/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
+    username: drone-starter
+    icon_emoji: ":rocket:"
